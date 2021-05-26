@@ -1,0 +1,98 @@
+.intl-tel-input.allow-dropdown input {
+}
+.intl-tel-input input {
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 8px 12px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.428571429;
+    color: #333333;
+    vertical-align: middle;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+p.form-subtext {
+    margin-top: 10px;
+    color: lightgrey;
+    text-align: center;
+}
+p.form-error-message {
+    margin-top: 15px;
+    font-size: 150%;
+    color: orangered;
+    text-align: center;
+    display: none;
+}
+#loading-image {
+    display: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.form-success {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1.2em;
+  text-align: center;
+    font-weight: 500;
+}
+.form-success-title {
+    font-weight: 700;
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+.w-form-done {
+  display: none;
+  padding-top: 10px;
+  text-align: center;
+  background-color: white;
+    max-height: 350px;
+}
+img.success-image {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+}
+
+@media screen and (max-width: 479px) {
+    .w-input, .w-select {
+        width: 95%;
+    }
+    .intl-tel-input input {
+        width: 95%;
+    }
+p.form-subtext {
+    font-size: 8px;
+}
+}
+
+@media screen and (max-width: 767px) {
+    .w-input, .w-select {
+        width: 85%;
+    }
+    .intl-tel-input input {
+        width: 105%;
+    }
+    p.form-subtext {
+        font-size: 10px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    .w-input, .w-select {
+        width: 60%;
+    }
+    .intl-tel-input input {
+        width: 100%;
+    }
+    img.success-image {
+        width: 40%;
+    }
+
+}
